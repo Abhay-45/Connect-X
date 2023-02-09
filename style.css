@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+
+#Game_Board {
+    height:500px;
+    width: 500px;
+    background-color: #1C62F0;
+    border: 10px solid black;
+    border-radius: 5px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.tile {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+
+    /* Circle */
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
