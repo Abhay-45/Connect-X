@@ -52,7 +52,7 @@ public class Model implements IModel
 	// Called when a new game is started on an empty board.
 	public void initNewGame(GameSettings settings)
 	{
-		mademove =0;
+		mademove = 0;
 		this.settings = settings;
 		state = new byte[settings.nrRows][settings.nrCols];
 
