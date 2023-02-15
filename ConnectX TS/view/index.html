@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect-X</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <h1>Connect-X</h1>
+    <form action="game.html">
+        <div>
+            <label for="grid-size">Select a grid size</label>
+            <input type="range" name="grid-size" id="grid-size" min = "5" max="10" oninput="this.nextElementSibling.value = this.value">
+            <output>8</output>
+        </div>
+        <div>
+            <label for="streak-size">Select a streak size</label>
+            <input type="range" name="streak-size" id="streak-size" min="4" max="8" oninput="this.nextElementSibling.value = this.value">
+            <output>6</output>
+        </div>
+        
+        <button type="submit">START</button>
+    </form>
+</body>
+</html>
