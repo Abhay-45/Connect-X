@@ -1,3 +1,5 @@
+
+
 var rows = 6;
 var columns = 7;
 var currColumns = []; //keeps track of which row each column is at.
